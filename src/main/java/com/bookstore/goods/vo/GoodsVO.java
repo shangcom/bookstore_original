@@ -1,21 +1,23 @@
-package com.bookStore.goods.vo;
+package com.bookstore.goods.vo;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.sql.Date;
 
-@Data
+@Setter
+@Getter
 public class GoodsVO {
     private int goods_id;
-    private String good_title;
+    private String goods_title;
     private String goods_writer;
-    private int goods_price;
+    private int    goods_price;
     private String goods_publisher;
     private String goods_sort;
-    private int goods_sales_price;
-    private int goods_point;
-    private Date goods_published_date;
-    private int goods_total_page;
+    private int    goods_sales_price;
+    private int    goods_point;
+    private Date    goods_published_date;
+    private int    goods_total_page;
     private String goods_isbn;
     private String goods_delivery_price;
     private Date goods_delivery_date;
@@ -26,5 +28,10 @@ public class GoodsVO {
     private String goods_intro;
     private String goods_publisher_comment;
     private String goods_recommendation;
-    private Date goods_credate;
+    private Date   goods_credate;
+
+    public GoodsVO() {
+    }
+
+
 }

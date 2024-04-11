@@ -1,7 +1,7 @@
-package com.bookStore.goods.dao;
+package com.bookstore.goods.dao;
 
-import com.bookStore.goods.vo.GoodsVO;
-import com.bookStore.goods.vo.ImageFileVO;
+import com.bookstore.goods.vo.GoodsVO;
+import com.bookstore.goods.vo.ImageFileVO;
 import org.springframework.dao.DataAccessException;
 
 import java.util.List;

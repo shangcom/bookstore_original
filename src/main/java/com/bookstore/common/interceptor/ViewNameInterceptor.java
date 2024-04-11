@@ -1,4 +1,4 @@
-package com.bookStore.common.interceptor;
+package com.bookstore.common.interceptor;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
